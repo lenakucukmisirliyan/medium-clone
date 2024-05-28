@@ -1,0 +1,393 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Medium</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid border-bottom">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-2 mt-2">
+                    <li class="nav-item me-4">
+                        <a class="btn btn-dark" href="#"><strong>Medium</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <form action="/search" method="GET" class="d-flex align-items-center">
+                            <i class="fa-solid fa-magnifying-glass me-2"></i>
+                            <input type="text" placeholder="Search" name="query" class="search-box">
+                        </form>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-auto d-flex align-items-center me-4">
+                        <i class="fa-solid fa-pen"></i>
+                        <a class="nav-link" href="#">Write</a>
+                    </li>
+                    <li class="nav-item me-2 d-flex align-items-center me-4">
+                        <i class="fa-regular fa-bell"></i>
+                    </li>
+                    <li class="nav-item ms-auto d-flex align-items-center me-2">
+                        <img class="rounded-circle"  src="https://picsum.photos/30">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="offset-1 col-7 border-right">
+                <ul class="nav nav-underline my-3 text-dark border-bottom">
+                    <li class="nav-item d-flex align-items-center">
+                        <i class="fa-solid fa-plus"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><small>For you</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><small>Following</small></a>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">smoul in Practice in Public</small>
+                        <br><br><h4><strong>What Actually Matters in Your 20s</strong></h4>
+                        <h6 class="font-gray mb-4">Maybe, you're living it all wrong</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Mar 10</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.5K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">323</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="mt-5" src="https://picsum.photos/id/37/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">mile</small>
+                        <br><br><h4><strong>Sometimes Some Things Are Better Left Unknown</strong></h4>
+                        <h6 class="font-gray mb-4">the writing serves as a reminder for everybody, including me.</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Nov 28,2023</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.6K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">178</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 75px;" src="https://picsum.photos/id/19/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">Jackie Duden in Dancing Elephants Press</small>
+                        <br><br><h4><strong>The Word No Shapes Us</strong></h4>
+                        <h6 class="font-gray mb-4">I appriciate thay my parents said it</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">May 9</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">345</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">3</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 45px;" src="https://picsum.photos/id/29/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">smoul in Practice in Public</small>
+                        <br><br><h4><strong>What Actually Matters in Your 20s</strong></h4>
+                        <h6 class="font-gray mb-4">Maybe, you're living it all wrong</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Mar 10</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.5K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">323</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="mt-5" src="https://picsum.photos/id/37/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">mile</small>
+                        <br><br><h4><strong>Sometimes Some Things Are Better Left Unknown</strong></h4>
+                        <h6 class="font-gray mb-4">the writing serves as a reminder for everybody, including me.</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Nov 28,2023</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.6K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">178</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 75px;" src="https://picsum.photos/id/19/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">Jackie Duden in Dancing Elephants Press</small>
+                        <br><br><h4><strong>The Word No Shapes Us</strong></h4>
+                        <h6 class="font-gray mb-4">I appriciate thay my parents said it</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">May 9</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">345</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">3</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 45px;" src="https://picsum.photos/id/29/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">smoul in Practice in Public</small>
+                        <br><br><h4><strong>What Actually Matters in Your 20s</strong></h4>
+                        <h6 class="font-gray mb-4">Maybe, you're living it all wrong</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Mar 10</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.5K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">323</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="mt-5" src="https://picsum.photos/id/37/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">mile</small>
+                        <br><br><h4><strong>Sometimes Some Things Are Better Left Unknown</strong></h4>
+                        <h6 class="font-gray mb-4">the writing serves as a reminder for everybody, including me.</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Nov 28,2023</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.6K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">178</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 75px;" src="https://picsum.photos/id/19/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">Jackie Duden in Dancing Elephants Press</small>
+                        <br><br><h4><strong>The Word No Shapes Us</strong></h4>
+                        <h6 class="font-gray mb-4">I appriciate thay my parents said it</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">May 9</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">345</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">3</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 45px;" src="https://picsum.photos/id/29/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">smoul in Practice in Public</small>
+                        <br><br><h4><strong>What Actually Matters in Your 20s</strong></h4>
+                        <h6 class="font-gray mb-4">Maybe, you're living it all wrong</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Mar 10</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.5K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">323</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="mt-5" src="https://picsum.photos/id/37/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">mile</small>
+                        <br><br><h4><strong>Sometimes Some Things Are Better Left Unknown</strong></h4>
+                        <h6 class="font-gray mb-4">the writing serves as a reminder for everybody, including me.</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">Nov 28,2023</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">19.6K</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">178</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 75px;" src="https://picsum.photos/id/19/180/120">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 mt-4">
+                        <img class="rounded-circle me-2"  src="https://picsum.photos/id/23/20"><small class="small-font">Jackie Duden in Dancing Elephants Press</small>
+                        <br><br><h4><strong>The Word No Shapes Us</strong></h4>
+                        <h6 class="font-gray mb-4">I appriciate thay my parents said it</h6>
+                        <div class="d-flex align-items-center font-gray me-auto">    
+                            <p class="font-gray "><small class="smaller">May 9</small></p>
+                            <i class="fa-solid fa-hand ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">345</small></p>
+                            <i class="fa-solid fa-comment ms-4 mb-3 me-1"></i>
+                            <p><small class="smaller">3</small></p>
+                            <div class="d-flex align-items-center font-gray ms-auto">
+                                <i class="fa-solid fa-minus ms-4 mb-3 me-1"></i>
+                                <i class="fa-regular fa-floppy-disk ms-4 mb-3 me-1"></i>
+                                <i class="fa-solid fa-bars ms-4 mb-3 me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img style="margin-top: 45px; margin-bottom: 100px;" src="https://picsum.photos/id/29/180/120">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3  my-4">
+                <h6>Staff Picks</h6>
+                <br>
+                <img class="rounded-circle me-2"  src="https://picsum.photos/id/27/20"><small class="small-font">Kelly Smith in UX Collective</small>
+                <br><strong>Spot On</strong>
+
+                <br><br>
+                <img class="rounded-circle me-2"  src="https://picsum.photos/id/33/20"><small class="small-font">Joan Westenberg in @westenberg</small>
+                <br><strong>Just show up.</strong>
+
+                <br><br>
+                <img class="rounded-circle me-2"  src="https://picsum.photos/id/62/20"><small class="small-font">Matthew Clapham in A-Culturated</small>
+                <br>
+                <strong>The Hardest Phrase in the World to Translate: 'A Nice Cup of Tea'</strong>
+                <br><br>
+                <p style="color: green;"><small>See the full list</small></p>
+                <br>
+                <div>
+                    <h5><small><strong>Recommended Topics</strong></small></h5>
+                    <div>
+                        <button class="no-border px-3 py-1 my-2"><small>Health</small></button>
+                        <button class="no-border px-3 py-1 my-2"><small>Science</small></button>
+                        <button class="no-border px-3 py-1 my-2"><small>Mental Health</small></button>
+                        <button class="no-border px-3 py-1 my-2"><small>Life</small></button>
+                        <button class="no-border px-3 py-1 my-2"><small>Software Development</small></button>
+                        <button class="no-border px-3 py-1 my-2"><small>Startup</small></button>
+                        <button class="no-border px-3 py-1 my-2"><small>Design</small></button>
+                        <br><br>
+                        <p style="color: green;"><small>See more topics</small></p>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="mb-3"><small><strong>Who to follow</strong></small></h5>
+                    <div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="me-2">
+                                <img class="rounded-circle me-3"  src="https://picsum.photos/id/16/30"><strong>Will Leitch</strong>
+                                <br><p class="ms-5 font-gray"><small>Author of six books, including "How Lucky" and "The Time...</small></p>
+                            </div>   
+                            <div> 
+                                <button class="my-2 text-dark" style="border-radius: 99em; border: 1px solid rgb(36, 36, 36); background-color: white; padding: 5px 12px;"><small>Follow</small></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="me-2">
+                                <img class="rounded-circle me-3"  src="https://picsum.photos/id/61/30"><strong>Alex Kantrowitz</strong>
+                                <br><p class="ms-5 font-gray"><small>Veteran journalist covering Big Tech and society...</small></p>
+                            </div>   
+                            <div> 
+                                <button class="my-2 text-dark" style="border-radius: 99em; border: 1px solid rgb(36, 36, 36); background-color: white; padding: 5px 12px;"><small>Follow</small></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="me-2">
+                                <img class="rounded-circle me-3"  src="https://picsum.photos/id/42/30"><strong>Buster Benson</strong>
+                                <br><p class="ms-5 font-gray"><small>Product at @Medium. Author of "Why Are We Yelling?" The...</small></p>
+                            </div>   
+                            <div> 
+                                <button class="my-2 text-dark" style="border-radius: 99em; border: 1px solid rgb(36, 36, 36); background-color: white; padding: 5px 12px;"><small>Follow</small></button>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="color: green;"><small>See more suggestions</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html
